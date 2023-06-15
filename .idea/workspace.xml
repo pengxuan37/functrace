@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be74cec9-0eaf-44fd-9972-c214848dffe4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/gen/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/gen/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/example_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gen-demo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gen-demo/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gen-demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gen-demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/rewrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/rewrite.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/rewrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/rewrite_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/testdata/no_import.golden" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/testdata/no_import.golden" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/testdata/with_import_no_trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/testdata/with_import_no_trace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/testdata/with_import_no_trace.golden" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/testdata/with_import_no_trace.golden" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/testdata/with_import_with_trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/testdata/with_import_with_trace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/generator/testdata/with_import_with_trace.golden" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generator/testdata/with_import_with_trace.golden" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/batch_add_trace.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/batch_add_trace.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/trace.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,26 +22,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/pengxuan/Desktop/go/project/src/github.com/pengxuan37/functrace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pengxuan/Desktop/go/project/src/github.com/pengxuan37/functrace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Test.ExampleTrace in github.com/pengxuan37/functrace">
     <configuration name="ExampleTrace in github.com/pengxuan37/functrace" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="functrace" />
       <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-tags trace" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.GoAwsConnectionRunConfigurationExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
       <kind value="PACKAGE" />
       <package value="github.com/pengxuan37/functrace" />
       <directory value="$PROJECT_DIR$" />
